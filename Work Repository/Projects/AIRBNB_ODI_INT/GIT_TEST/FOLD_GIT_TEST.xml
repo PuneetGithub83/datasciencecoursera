@@ -1,23 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SunopsisExport>
 <Admin RepositoryVersion="05.02.02.07" IsLegacyIdCompatible="false" />
-<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="3T2sMiRV8vW1vIDUNMjcXA==" exportKeySalt="85a915b9-c129-4d73-9894-d9ff532b77fd" containsCipherText="false"/>
+<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="VQLck1bseHh4zd+frsT7yQ==" exportKeySalt="45956066-18df-4aec-8173-a87831a2ca2e" containsCipherText="false"/>
 <Object class="com.sunopsis.dwg.dbobj.SnpFolder">
 		<Field name="ExtVersion" type="java.lang.String">null</Field>
 	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2019-02-28 08:19:46.0]]></Field>
 	<Field name="FirstUser" type="java.lang.String"><![CDATA[Puneet]]></Field>
 	<Field name="FolderName" type="java.lang.String"><![CDATA[GIT_TEST]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[d23949bd-775b-456e-8918-e9d0a057c938]]></Field>
-	<Field name="IndChange" type="java.lang.String"><![CDATA[I]]></Field>
+	<Field name="IndChange" type="java.lang.String"><![CDATA[U]]></Field>
 	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
 	<Field name="IFolder" type="com.sunopsis.sql.DbInt"><![CDATA[41]]></Field>
 	<Field name="IProject" type="com.sunopsis.sql.DbInt"><![CDATA[2]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2019-02-28 08:19:46.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2019-02-28 09:29:37.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[Puneet]]></Field>
 	<Field name="OrdFolder" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="ParIFolder" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="ReleaseTag" type="java.lang.String">null</Field>
 	<Field name="VLastDate" type="java.sql.Timestamp">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpPackage]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[PKG_XXABB_GIT_TEST]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[2c967a5e-106b-4c05-b19b-fb1e5989e1d8]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[a439c5b0d5f216dc047e98c01e2c7bcfbb9d55b0]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Packages/PACK_PKG_XXABB_GIT_TEST.xml]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
 		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_PROJECT.2]]></Field>
